@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: grey;
+}
+
+p {
+    padding: 2rem;
+    font-size: larger;
+    color: grey;
+}
+
+button {
+    background-color: grey;
+    color: white;
+    font-size: large;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: teal;
+}
+
+.main-header {
+    background: linear-gradient(45deg, teal, mediumseagreen);
+    padding: 2rem;
+}
+
+.main-header h1 {
+    color: whitesmoke;
+}
+
+nav {
+    background-color: lightgrey;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    color: black;
+}
+
+nav a:hover {
+    background: lightseagreen;
+}
+
+section {
+    padding: 2rem;
+}
+
+.gallery-section img {
+    width: 33%;
+}
+
+.packages-section figure {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 5px grey;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.packages-section figure img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+}
+
+.packages-section figure figcaption {
+    font-size: x-large;
+    margin: 1rem;
+}
+
+.packages-section figure p {
+    font-size: large;
+    text-align: justify;
+    padding: 5px;
+}
+
+.contact-section input {
+    width: 350px;
+    display: block;
+    font-size: larger;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.main-footer {
+    background-color: grey;
+    padding: 1rem;
+    color: whitesmoke;
+}
